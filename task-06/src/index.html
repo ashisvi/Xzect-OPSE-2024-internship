@@ -4,75 +4,128 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Masco - Saas Software Startup</title>
+
+    <link rel="stylesheet" href="./scss/styles.scss" />
+    <script type="module" src="./js/main.js"></script>
   </head>
   <body>
     <!-- Header -->
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-          <img src="/assets/images/logo-tangerine-dark.png" alt="logo" height="100px" width="100px" />
+        <a href="#" class="navbar-brand">
+          <img src="./assets/images/logo-tangerine-dark.png" alt="logo" />
         </a>
-        <button
+        <a
           class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
+          type="a"
+          data-bs-toggle="collapse"
           data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
-        </button>
-
+        </a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
+          <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <div class="dropdown">
+                <a
+                  class="dropdown-toggle nav-link"
+                  type="a"
+                  id="dropdownMenua"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Demo
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenua">
+                  <li>
+                    <a class="dropdown-item" href="#">Digital agency</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Chat software</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Fitness App</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Online Courses</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">SEO Agency</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Cold Email</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Web Hosting</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Startup</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Tracking Software</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">AI Writing Tool</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Website Builder</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">AI Photo Editor</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >initial coin offering (ICO)</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">AI Content Generator</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">IT Service</a>
+                  </li>
+                </ul>
+              </div>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+            <li class="nav-item">About</li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <a class="dropdown-toggle nav-link">Services</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item">Services</a></li>
+                  <li><a href="#" class="dropdown-item">Service details</a></li>
+                </ul>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <div class="dropdown">
+                <a class="dropdown-toggle nav-link">Products</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">Product Category A</a>
+                    <ul class="dropdown-menu dropdown-submenu">
+                      <li><a class="dropdown-item" href="#">Product A1</a></li>
+                      <li><a class="dropdown-item" href="#">Product A2</a></li>
+                      <li><a class="dropdown-item" href="#">Product A3</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Product Category B</a>
+                    <ul class="dropdown-menu dropdown-submenu">
+                      <li><a class="dropdown-item" href="#">Product B1</a></li>
+                      <li><a class="dropdown-item" href="#">Product B2</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#" class="dropdown-item">Product Details</a></li>
+                </ul>
+              </div>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input
-              class="form-control mr-sm-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
-            </button>
-          </form>
         </div>
       </nav>
     </header>
-
-    <!-- Script -->
-    <script type="module" src="./js/main.js"></script>
   </body>
 </html>
