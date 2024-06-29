@@ -4,128 +4,987 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Masco - Saas Software Startup</title>
-
     <link rel="stylesheet" href="./scss/styles.scss" />
     <script type="module" src="./js/main.js"></script>
+    <link rel="stylesheet" href="./assets/styles/main.css" />
   </head>
   <body>
-    <!-- Header -->
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a href="#" class="navbar-brand">
-          <img src="./assets/images/logo-tangerine-dark.png" alt="logo" />
-        </a>
-        <a
-          class="navbar-toggler"
-          type="a"
-          data-bs-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <div class="dropdown">
-                <a
-                  class="dropdown-toggle nav-link"
-                  type="a"
-                  id="dropdownMenua"
-                  data-mdb-toggle="dropdown"
-                  aria-expanded="false"
+    <div>
+      <!-- Header -->
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light px-5">
+          <a href="#" class="navbar-brand">
+            <img src="./assets/images/logo-tangerine-dark.png" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto d-flex flex-wrap align-items-center">
+              <li class="nav-item mx-3">
+                <div class="dropdown">
+                  <a
+                    class="dropdown-toggle nav-link"
+                    type="a"
+                    id="dropdownMenua"
+                    data-mdb-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Demo
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenua">
+                    <li>
+                      <a class="dropdown-item" href="#">Digital agency</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Chat software</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Fitness App</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Online Courses</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">SEO Agency</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Cold Email</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Web Hosting</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Startup</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Tracking Software</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">AI Writing Tool</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Website Builder</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">AI Photo Editor</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >initial coin offering (ICO)</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">AI Content Generator</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">IT Service</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item mx-3">About</li>
+              <li class="nav-item mx-3">
+                <div class="dropdown">
+                  <a class="dropdown-toggle nav-link">Services</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#" class="dropdown-item">Services</a></li>
+                    <li>
+                      <a href="#" class="dropdown-item">Service details</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item mx-3">
+                <div class="dropdown">
+                  <a class="dropdown-toggle nav-link">Pages</a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Blogs</a>
+                      <ul class="dropdown-menu dropdown-submenu">
+                        <li><a class="dropdown-item" href="#">Blogs</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Blog Details</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Team</a>
+                      <ul class="dropdown-menu dropdown-submenu">
+                        <li><a class="dropdown-item" href="#">Teams</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">FAQ</a>
+                      <ul class="dropdown-menu dropdown-submenu">
+                        <li><a class="dropdown-item" href="#">FAQ-1</a></li>
+                        <li><a class="dropdown-item" href="#">FAQ-2</a></li>
+                        <li><a class="dropdown-item" href="#">FAQ-3</a></li>
+                        <li><a class="dropdown-item" href="#">FAQ-4</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Portfolio</a>
+                      <ul class="dropdown-menu dropdown-submenu">
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Portfolio Classic</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Portfolio Masonry</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Portfolio Modern</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Portfolio Minimal</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Portfolio Details</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Pricing</a>
+                      <ul class="dropdown-menu dropdown-submenu">
+                        <li><a class="dropdown-item" href="#">Pricing-1</a></li>
+                        <li><a class="dropdown-item" href="#">Pricing-2</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Careers</a>
+                      <ul class="dropdown-menu dropdown-submenu">
+                        <li><a class="dropdown-item" href="#">Career</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Career Details</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Utilities</a>
+                      <ul class="dropdown-menu dropdown-submenu">
+                        <li><a class="dropdown-item" href="#">Login</a></li>
+                        <li><a class="dropdown-item" href="#">Signup</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Reset Password</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Coming Soon</a>
+                        </li>
+                        <li><a class="dropdown-item" href="#">Error 404</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item mx-3">
+                <div class="dropdown">
+                  <a class="dropdown-toggle nav-link">Contact</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Contact-1</a></li>
+                    <li><a class="dropdown-item" href="#">Contact-2</a></li>
+                    <li><a class="dropdown-item" href="#">Contact-3</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <div>
+              <button class="btn btn-lg fw-bold mx-3">Login</button>
+              <button class="btn btn-lg btn-tangerine">Signup Free</button>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Hero Section -->
+      <section class="container-fluid pt-5 section-hero">
+        <div class="container-default">
+          <div class="row g-4">
+            <div class="col-lg-6">
+              <div>
+                <h1 class="mb-6 heading-1">
+                  Bring additional qualified traffic to your website
+                </h1>
+                <p class="mb-8">
+                  SEO is a digital marketing strategy that helps your website
+                  appear in relevant search results in search engines. It
+                  involves various techniques from using to keywords on your
+                  pages to earning links to your site.
+                </p>
+                <form
+                  class="form-inline d-inline-flex rounded justify-content-between align-items-center bg-white"
                 >
-                  Demo
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenua">
-                  <li>
-                    <a class="dropdown-item" href="#">Digital agency</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Chat software</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Fitness App</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Online Courses</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">SEO Agency</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Cold Email</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Web Hosting</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Startup</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Tracking Software</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">AI Writing Tool</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Website Builder</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">AI Photo Editor</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >initial coin offering (ICO)</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">AI Content Generator</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">IT Service</a>
-                  </li>
-                </ul>
+                  <div class="form-group mx-3">
+                    <input
+                      type="text"
+                      class="form-control-plaintext fs-5"
+                      id="staticEmail2"
+                      placeholder="email@example.com"
+                    />
+                  </div>
+                  <button type="submit" class="btn btn-tangerine m-2">
+                    Subscribe
+                  </button>
+                </form>
+                <div class="mt-7 flex gap-5 text-base fw-semibold">
+                  <div class="flex gap-1">
+                    <img
+                      src="assets/images/icon-green-star.svg"
+                      alt="icon-green-star"
+                      width="17"
+                      height="17"
+                    />
+                    <img
+                      src="assets/images/icon-green-star.svg"
+                      alt="icon-green-star"
+                      width="17"
+                      height="17"
+                    />
+                    <img
+                      src="assets/images/icon-green-star.svg"
+                      alt="icon-green-star"
+                      width="17"
+                      height="17"
+                    />
+                    <img
+                      src="assets/images/icon-green-star.svg"
+                      alt="icon-green-star"
+                      width="17"
+                      height="17"
+                    />
+                    <img
+                      src="assets/images/icon-green-star.svg"
+                      alt="icon-green-star"
+                      width="17"
+                      height="17"
+                    />
+                  </div>
+                  ( 4.8 out of 5 Rating)
+                </div>
               </div>
-            </li>
-            <li class="nav-item">About</li>
-            <li class="nav-item">
-              <div class="dropdown">
-                <a class="dropdown-toggle nav-link">Services</a>
-                <ul class="dropdown-menu">
-                  <li><a href="#" class="dropdown-item">Services</a></li>
-                  <li><a href="#" class="dropdown-item">Service details</a></li>
-                </ul>
+            </div>
+            <div class="col-lg-6">
+              <div class="position-relative d-flex">
+                <img
+                  class="hero-image-1"
+                  src="assets/images/hero-card-1.png"
+                  alt="hero-card-1"
+                  width="320"
+                  height="301"
+                  class="align-self-start"
+                />
+                <img
+                  class="hero-image-2"
+                  src="assets/images/hero-card-2.png"
+                  alt="hero-card-2"
+                  width="299"
+                  height="236"
+                  class="ml-auto mt-6 d-none d-sm-block align-self-end"
+                />
+                <img
+                  class="hero-image-3"
+                  src="assets/images/hero-card-3.png"
+                  alt="hero-card-3"
+                  width="244"
+                  height="235"
+                  class="position-absolute top-14 d-none d-md-block"
+                />
               </div>
-            </li>
-            <li class="nav-item">
-              <div class="dropdown">
-                <a class="dropdown-toggle nav-link">Products</a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#">Product Category A</a>
-                    <ul class="dropdown-menu dropdown-submenu">
-                      <li><a class="dropdown-item" href="#">Product A1</a></li>
-                      <li><a class="dropdown-item" href="#">Product A2</a></li>
-                      <li><a class="dropdown-item" href="#">Product A3</a></li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Product Category B</a>
-                    <ul class="dropdown-menu dropdown-submenu">
-                      <li><a class="dropdown-item" href="#">Product B1</a></li>
-                      <li><a class="dropdown-item" href="#">Product B2</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#" class="dropdown-item">Product Details</a></li>
-                </ul>
-              </div>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
-      </nav>
-    </header>
+      </section>
+
+      <section class="section-features">
+        <h1 class="secondary-heading">
+          Turn traffic with insanely SEO & growth into revenue
+        </h1>
+        <div class="feature-card-group">
+          <div class="feature-card">
+            <div>
+              <div class="img">
+                <img
+                  src="./assets/images/icon-tangerine-feature-1.svg"
+                  alt=""
+                />
+              </div>
+              <h4>Increases Brand Awareness</h4>
+              <p>
+                You want to stand out in your industry as a leader, but you also
+                want to be seen as a relevant solution for your audience.
+              </p>
+            </div>
+          </div>
+          <div class="feature-card">
+            <div>
+              <div class="img">
+                <img
+                  src="./assets/images/icon-tangerine-feature-2.svg"
+                  alt=""
+                />
+              </div>
+              <h4>Amplifies PPC Success</h4>
+              <p>
+                Make sure you optimize your PPC ads for both desktop and mobile
+                search ads for focusing on desktop successfully.
+              </p>
+            </div>
+          </div>
+          <div class="feature-card">
+            <div>
+              <div class="img">
+                <img
+                  src="./assets/images/icon-tangerine-feature-3.svg"
+                  alt=""
+                />
+              </div>
+              <h4>Builds Customer Trust</h4>
+              <p>
+                Even with a strong SEO strategy, building customer trust in your
+                brand takes time. Invest in quality content for readers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-content">
+        <div class="content-images">
+          <img src="./assets/images/content-img-1.png" alt="" />
+          <img
+            class="img-small"
+            src="./assets/images/home-5-content-img-shape-1.svg"
+            alt=""
+          />
+        </div>
+        <div class="content-text">
+          <h2 class="secondary-heading">
+            SEO agency that will evolve your search performance
+          </h2>
+          <p>
+            These days, no business can’t to ignore Search Engine Optimization.
+            SEO should plays a part in your online marketing strategy as it
+            helps people to find you online. Over time that leads to more sales.
+          </p>
+          <div class="stats">
+            <div>
+              <span>98%</span>
+              Average Conversion Rate
+            </div>
+            <div>
+              <span>60M</span>
+              Traffic Generated
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-strategies">
+        <h2 class="secondary-heading">
+          Boost your business with advanced SEO strategies
+        </h2>
+        <div class="strategy-list">
+          <div class="strategy-item">
+            <span class="strategy-number">01.</span>
+            <div class="strategy-divider"></div>
+            <h3 class="strategy-title">Keyword strategy</h3>
+            <p class="strategy-description">
+              When developing a keyword strategy, we use a number of tools to
+              conduct keyword research alongside years of knowledge.
+            </p>
+            <a href="" class="strategy-link">
+              Discover More
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </a>
+          </div>
+          <div class="strategy-item">
+            <span class="strategy-number">02.</span>
+            <div class="strategy-divider"></div>
+            <h3 class="strategy-title">Content optimization</h3>
+            <p class="strategy-description">
+              Ranking on page 1 &gaining rich snippets requires a detailed SEO
+              content strategy. Everything from header tag optimization.
+            </p>
+            <a href="" class="strategy-link">
+              Discover More
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </a>
+          </div>
+          <div class="strategy-item">
+            <span class="strategy-number">03.</span>
+            <div class="strategy-divider"></div>
+            <h3 class="strategy-title">Technical SEO</h3>
+            <p class="strategy-description">
+              Creating great content is one thing, but making sure Googlebot can
+              crawl, and index it efficiently is another! We used.
+            </p>
+            <a href="" class="strategy-link">
+              Discover More
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </a>
+          </div>
+          <div class="strategy-item">
+            <span class="strategy-number">04.</span>
+            <div class="strategy-divider"></div>
+            <h3 class="strategy-title">Link building & SEO audits</h3>
+            <p class="strategy-description">
+              When developing a keyword strategy, we use a number of tools to
+              conduct keyword research alongside years of knowledge.
+            </p>
+            <a href="" class="strategy-link">
+              Discover More
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </a>
+          </div>
+          <div class="strategy-item">
+            <span class="strategy-number">05.</span>
+            <div class="strategy-divider"></div>
+            <h3 class="strategy-title">Website migrations</h3>
+            <p class="strategy-description">
+              Whether it’s a domain, design, or platform migration, there is
+              always the risk of losing organic traffic. We can mitigate that
+              risk.
+            </p>
+            <a href="" class="strategy-link">
+              Discover More
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </a>
+          </div>
+          <div class="strategy-item">
+            <span class="strategy-number">06.</span>
+            <div class="strategy-divider"></div>
+            <h3 class="strategy-title">E-Commerce SEO</h3>
+            <p class="strategy-description">
+              E-Commerce websites require a unique approach to SEO in order to
+              maximize for product page visibility and increase sales.
+            </p>
+            <a href="" class="strategy-link">
+              Discover More
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </a>
+          </div>
+        </div>
+        <img
+          src="assets/images/home-5-service-bg-shape.svg"
+          alt="home-5-service-bg-shape"
+          class="strategy-bg-shape"
+        />
+      </section>
+
+      <section class="section-content">
+        <div class="content-text">
+          <h2 class="secondary-heading">
+            SEO gains momentum by increasing your investment
+          </h2>
+          <p>
+            SEO is often referred to as the 'long-term game' in the marketing
+            world. The more time you invest, the faster the benefits of SEO will
+            accrue. As your website content (ie blog, service pages, etc.)
+          </p>
+          <p>
+            Search engine optimization ensures that your online presence is both
+            articulated properly and discoverable to potential customers.
+          </p>
+          <a href="" class="btn">Explore More</a>
+        </div>
+        <div class="content-images">
+          <img src="./assets/images/content-img-2.png" alt="" />
+        </div>
+      </section>
+
+      <section class="section-process">
+        <h2 class="secondary-heading">
+          We follow a simple, yet effective SEO ranking process
+        </h2>
+        <div class="process-card-group">
+          <div class="bar"></div>
+          <div class="process-card">
+            <span class="process-card-number">1</span>
+            <h3 class="process-heading">Keyword Research</h3>
+            <p class="process-desc">
+              Keyword research is the process of discovering valuable search
+              queries
+            </p>
+          </div>
+          <div class="process-card">
+            <span class="process-card-number">2</span>
+            <h3 class="process-heading">Link Building</h3>
+            <p class="process-desc">
+              Link building is a SEO technique that increases your search engine
+              ranking
+            </p>
+          </div>
+          <div class="process-card">
+            <span class="process-card-number">3</span>
+            <h3 class="process-heading">Ranking</h3>
+            <p class="process-desc">
+              It helps a website's 1st position in the search engine results
+              page
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-team">
+        <div class="team-header">
+          <div>
+            <h2 class="secondary-heading">
+              Our SEO experts are available to assist you
+            </h2>
+          </div>
+          <div>
+            <a href="" class="btn">Meet All Members</a>
+          </div>
+        </div>
+        <div class="team-list">
+          <div class="team-member">
+            <img src="./assets/images/team-img-1.jpg" alt="" />
+            <div class="member-info">
+              <a href="" class="member-name">Cameron Williamson</a>
+              <address>
+                <span>CEO@Company</span>
+                <div class="member-social-links">
+                  <a href="" target="_blank">
+                    <img src="./assets/images/x-twitter.svg" alt="twitter" />
+                  </a>
+                  <a href="" target="_blank">
+                    <img src="./assets/images/facebook-f.svg" alt="facebook" />
+                  </a>
+                  <a href="" target="_blank">
+                    <img src="./assets/images/instagram.svg" alt="instagram" />
+                  </a>
+                  <a href="" target="_blank">
+                    <img src="./assets/images/github.svg" alt="github" />
+                  </a>
+                </div>
+              </address>
+            </div>
+          </div>
+          <div class="team-member">
+            <img src="./assets/images/team-img-2.jpg" alt="" />
+            <div class="member-info">
+              <a href="" class="member-name">Leslie Alexander</a>
+              <address>
+                <span>Senior SCO Manager</span>
+                <div class="member-social-links">
+                  <a href="" target="_blank">
+                    <img src="./assets/images/x-twitter.svg" alt="twitter" />
+                  </a>
+                  <a href="" target="_blank">
+                    <img src="./assets/images/facebook-f.svg" alt="facebook" />
+                  </a>
+                  <a href="" target="_blank">
+                    <img src="./assets/images/instagram.svg" alt="instagram" />
+                  </a>
+                  <a href="" target="_blank">
+                    <img src="./assets/images/github.svg" alt="github" />
+                  </a>
+                </div>
+              </address>
+            </div>
+          </div>
+          <div class="team-member">
+            <img src="./assets/images/team-img-3.jpg" alt="" />
+            <div class="member-info">
+              <a href="" class="member-name">Esther Howard</a>
+              <address>
+                <span>WP Manager</span>
+                <div class="member-social-links">
+                  <a href="" target="_blank">
+                    <img src="./assets/images/x-twitter.svg" alt="twitter" />
+                  </a>
+                  <a href="" target="_blank">
+                    <img src="./assets/images/facebook-f.svg" alt="facebook" />
+                  </a>
+                  <a href="" target="_blank">
+                    <img src="./assets/images/instagram.svg" alt="instagram" />
+                  </a>
+                  <a href="" target="_blank">
+                    <img src="./assets/images/github.svg" alt="github" />
+                  </a>
+                </div>
+              </address>
+            </div>
+          </div>
+          <div class="team-member">
+            <img src="./assets/images/team-img-4.jpg" alt="" />
+            <div class="member-info">
+              <a href="" class="member-name">Kristin Watson</a>
+              <address>
+                <span>SEO Executive</span>
+                <div class="member-social-links">
+                  <a href="" target="_blank">
+                    <img src="./assets/images/x-twitter.svg" alt="twitter" />
+                  </a>
+                  <a href="" target="_blank">
+                    <img src="./assets/images/facebook-f.svg" alt="facebook" />
+                  </a>
+                  <a href="" target="_blank">
+                    <img src="./assets/images/instagram.svg" alt="instagram" />
+                  </a>
+                  <a href="" target="_blank">
+                    <img src="./assets/images/github.svg" alt="github" />
+                  </a>
+                </div>
+              </address>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pricing">
+        <h2 class="secondary-heading">
+          Explore our SEO service plans and choose your plan
+        </h2>
+        <!-- Switch component -->
+        <div class="switch-button-container">
+          <span>Per Month</span>
+          <div class="switch">
+            <input type="checkbox" id="switch" />
+            <label for="switch">
+              <span class="switch-button"></span>
+            </label>
+          </div>
+          <span>Per Year</span>
+        </div>
+        <!-- Pricing Section -->
+        <div class="pricing-wrapper">
+          <div class="pricing-item">
+            <div class="pricing-content-top">
+              <img
+                src="./assets/images/icon-black-home-5-pricing-1.svg"
+                alt="icon-black-home-5-pricing-1"
+                class="pricing-icon"
+              />
+              <div class="pricing-plan">
+                <span class="pricing-plan-name">Silver Plan</span>
+                <div class="pricing-month">
+                  <span class="pricing-price">$30</span>/Per month
+                </div>
+                <div class="pricing-annual hidden">
+                  <span class="pricing-price">$300</span>/Per year
+                </div>
+              </div>
+            </div>
+            <div class="pricing-line-separator"></div>
+            <ul class="pricing-data-list">
+              <li class="pricing-data-item">
+                <span class="pricing-data-icon">
+                  <i class="fa-solid fa-certificate"></i>
+                </span>
+                50 key phrases optimized
+              </li>
+              <li class="pricing-data-item">
+                <span class="pricing-data-icon">
+                  <i class="fa-solid fa-certificate"></i>
+                </span>
+                30 pages optimized
+              </li>
+              <li class="pricing-data-item">
+                <span class="pricing-data-icon">
+                  <i class="fa-solid fa-certificate"></i>
+                </span>
+                6 CRO assets per quarter
+              </li>
+              <li class="pricing-data-item">
+                <span class="pricing-data-icon">
+                  <i class="fa-solid fa-certificate"></i>
+                </span>
+                8 custom dashboards
+              </li>
+              <li class="pricing-data-item">
+                <span class="pricing-data-icon">
+                  <i class="fa-solid fa-certificate"></i>
+                </span>
+                Revenue tracking dashboard
+              </li>
+            </ul>
+            <div class="pricing-call-to-action">
+              <a class="btn" href="#">Choose Plan</a>
+            </div>
+          </div>
+          <div class="pricing-item">
+            <div class="pricing-content-top">
+              <img
+                src="./assets/images/icon-black-home-5-pricing-2.svg"
+                alt="icon-black-home-5-pricing-2"
+                width="107"
+                height="60"
+                class="pricing-icon"
+              />
+              <div class="pricing-plan">
+                <span class="pricing-plan-name">Gold Plan</span>
+                <div class="pricing-month">
+                  <span class="pricing-price">$50</span>/Per month
+                </div>
+                <div class="pricing-annual hidden">
+                  <span class="pricing-price">$540</span>/Per year
+                </div>
+              </div>
+            </div>
+            <!-- Horizontal Line Separator -->
+            <div class="pricing-line-separator"></div>
+            <!-- Horizontal Line Separator -->
+            <ul class="pricing-data-list">
+              <li class="pricing-data-item">
+                <span class="pricing-data-icon">
+                  <i class="fa-solid fa-certificate"></i>
+                </span>
+                200 key phrases optimized
+              </li>
+              <li class="pricing-data-item">
+                <span class="pricing-data-icon">
+                  <i class="fa-solid fa-certificate"></i>
+                </span>
+                40 pages optimized
+              </li>
+              <li class="pricing-data-item">
+                <span class="pricing-data-icon">
+                  <i class="fa-solid fa-certificate"></i>
+                </span>
+                12 CRO assets per quarter
+              </li>
+              <li class="pricing-data-item">
+                <span class="pricing-data-icon">
+                  <i class="fa-solid fa-certificate"></i>
+                </span>
+                10 custom dashboards
+              </li>
+              <li class="pricing-data-item">
+                <span class="pricing-data-icon">
+                  <i class="fa-solid fa-certificate"></i>
+                </span>
+                Revenue tracking dashboard
+              </li>
+            </ul>
+            <div class="pricing-call-to-action">
+              <a class="btn" href="#">Choose Plan</a>
+            </div>
+          </div>
+          <div class="pricing-item">
+            <div class="pricing-content-top">
+              <img
+                src="./assets/images/icon-black-home-5-pricing-3.svg"
+                alt="icon-black-home-5-pricing-3"
+                width="65"
+                height="60"
+                class="pricing-icon"
+              />
+              <div class="pricing-plan">
+                <span class="pricing-plan-name">Diamond Plan</span>
+                <div class="pricing-month">
+                  <span class="pricing-price">$80</span>/Per month
+                </div>
+                <div class="pricing-annual hidden">
+                  <span class="pricing-price">$840</span>/Per year
+                </div>
+              </div>
+            </div>
+            <!-- Horizontal Line Separator -->
+            <div class="pricing-line-separator"></div>
+            <!-- Horizontal Line Separator -->
+            <ul class="pricing-data-list">
+              <li class="pricing-data-item">
+                <span class="pricing-data-icon">
+                  <i class="fa-solid fa-certificate"></i>
+                </span>
+                300 key phrases optimized
+              </li>
+              <li class="pricing-data-item">
+                <span class="pricing-data-icon">
+                  <i class="fa-solid fa-certificate"></i>
+                </span>
+                60 pages optimized
+              </li>
+              <li class="pricing-data-item">
+                <span class="pricing-data-icon">
+                  <i class="fa-solid fa-certificate"></i>
+                </span>
+                24 CRO assets per quarter
+              </li>
+              <li class="pricing-data-item">
+                <span class="pricing-data-icon">
+                  <i class="fa-solid fa-certificate"></i>
+                </span>
+                12 custom dashboards
+              </li>
+              <li class="pricing-data-item">
+                <span class="pricing-data-icon">
+                  <i class="fa-solid fa-certificate"></i>
+                </span>
+                Revenue tracking dashboard
+              </li>
+            </ul>
+            <div class="pricing-call-to-action">
+              <a class="btn" href="#">Choose Plan</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-testimonial">
+        <h2 class="secondary-heading">
+          We are the best from our client's point of view
+        </h2>
+        <div class="testimonial-wrapper">
+          <div class="testimonial-left">
+            <div class="left-wrapper">
+              <img src="./assets/images/icon-tangerine-quote.svg" alt="" />
+              <q>
+                We are very satisfied with the SEO services we have received
+                from Masco so far. Although SEO has only been around for a short
+                time, we are already seeing a positive step in our page rank. We
+                would recommend Masco's SEO services to anyone looking to
+                increase their web exposure.
+              </q>
+              <div class="client">
+                <h3 class="client-name">Anjilia Smith</h3>
+                <p class="client-role">Marketing Officer at Company</p>
+              </div>
+              <a href="" class="btn">View 1000+ Happy Clients Reviews</a>
+            </div>
+          </div>
+          <div class="testimonial-right">
+            <img src="./assets/images/testimonial-user.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <footer class="section-footer">
+        <div class="footer-top">
+          <div class="footer-heading">
+            <h1>Are you ready to increase your SEO ranking?</h1>
+          </div>
+          <div>
+            <a href="" class="btn btn-black">Let's Get Started</a>
+          </div>
+        </div>
+        <div class="footer-mid">
+          <div class="footer-block info">
+            <div class="logo">
+              <img
+                src="./assets/images/logo-tangerine-light.png"
+                alt="logo-light"
+              />
+            </div>
+            <p>
+              We are strategic & creative digital agency who are focused on user
+              experience, mobile, social, data gathering and promotional
+              offerings.
+            </p>
+            <a href="" class="email">yourdemo@email.com</a>
+            <div class="social-links">
+              <a href="">
+                <img
+                  src="./assets/images/x-twitter.svg"
+                  class="social-icon"
+                  alt="twitter"
+                />
+              </a>
+              <a href="">
+                <img
+                  src="./assets/images/facebook-f.svg"
+                  class="social-icon"
+                  alt="facebook"
+                />
+              </a>
+              <a href="">
+                <img
+                  src="./assets/images/instagram.svg"
+                  class="social-icon"
+                  alt="instagram"
+                />
+              </a>
+              <a href="">
+                <img
+                  src="./assets/images/github.svg"
+                  class="social-icon"
+                  alt="github"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="footer-block primary-pages">
+            <h3>Primary Pages</h3>
+            <ul class="footer-links-list">
+              <li class="footer-links">
+                <a href="">Home</a>
+              </li>
+              <li class="footer-links">
+                <a href="">About</a>
+                Us
+              </li>
+              <li class="footer-links">
+                <a href="">Services</a>
+              </li>
+              <li class="footer-links">
+                <a href="">Pricing</a>
+              </li>
+              <li class="footer-links">
+                <a href="">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-block utility-pages">
+            <h3>Utility Pages</h3>
+            <ul class="footer-links-list">
+              <li class="footer-links">
+                <a href="">Signup</a>
+              </li>
+              <li class="footer-links">
+                <a href="">Login</a>
+              </li>
+              <li class="footer-links">
+                <a href="">404 Not Found</a>
+              </li>
+              <li class="footer-links">
+                <a href="">Password Reset</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-block resources">
+            <h3>Resources</h3>
+            <ul class="footer-links-list">
+              <li class="footer-links">
+                <a href="">Support</a>
+              </li>
+              <li class="footer-links">
+                <a href="">Privacy Policy</a>
+              </li>
+              <li class="footer-links">
+                <a href="">Terms $ Conditions</a>
+              </li>
+              <li class="footer-links">
+                <a href="">Strategic Finance</a>
+              </li>
+              <li class="footer-links">
+                <a href="">Video Guide</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© Copyright 2024, All Rights Reserved by PixcelsThemes</p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- JavaScript Code -->
+    <script src="./assets/scripts/pricing.js"></script>
   </body>
 </html>
