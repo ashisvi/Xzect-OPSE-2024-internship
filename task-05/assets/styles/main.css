@@ -12,12 +12,26 @@ body {
 
 /* Header Start */
 
+.custom-container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.section-colored-wrapper {
+  background-color: #f5f3ea;
+}
+
+.black-wrapper {
+  background-color: #1b1c1d;
+}
+
 .site-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 25px 30px;
-  background-color: #f5f3ea;
+  max-width: 1400px;
+  margin: auto;
 }
 
 /* navbar */
@@ -484,6 +498,7 @@ li.sub-menu--item.nav-item-has-children .dropdown-icon {
 .feature-card h4 {
   font-size: 1.6rem;
   margin-block: 20px;
+  color: #1b1c1d;
 }
 
 .feature-card p {
@@ -717,6 +732,7 @@ li.sub-menu--item.nav-item-has-children .dropdown-icon {
 
 .process-card-number {
   border: 1px solid rgb(10 16 47);
+  background-color: white;
   border-radius: 50%;
   font-size: 2rem;
   font-weight: bold;
@@ -727,7 +743,6 @@ li.sub-menu--item.nav-item-has-children .dropdown-icon {
   margin: auto;
   position: relative;
   z-index: 10;
-  background-color: rgb(245 243 234);
   transition: all 0.5s;
 }
 
@@ -740,6 +755,7 @@ li.sub-menu--item.nav-item-has-children .dropdown-icon {
   font-size: 1.7rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
+  color: #1b1c1d;
 }
 
 .process-desc {
